@@ -1,0 +1,74 @@
+.cvCard{
+    background-color:  rgb(42, 95, 165);
+    color: white;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    box-shadow: 0 5px 5px rgb(67, 67, 88);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.credentials{
+    margin: 20px;
+}
+.cvPic{
+    
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 30px;
+    top:50px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding:10px;
+    margin-top:10px;
+    font-size: 15px;
+}
+img{
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+    border: rgb(255, 255, 255) 3px solid;
+    outline: none;
+   
+    
+   
+}
+
+ul li{
+    font-size: 10px;
+    list-style-type: none;
+}
+
+.cardName{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.cardTitle{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+}
+.cvLeftSide {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.textAlign{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+

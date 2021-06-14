@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navHeader {
+    background-color: rgb(15, 49, 94);
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkList {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+a {
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 15px;
+}
+
+.welcomeUser {
+    color: white;
+    position: absolute;
+    right: 20px
+}
+
+.linkList li {
+    color: white;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.linkList a {
+    text-decoration: none;
+}
+
+.active {
+    border-bottom: 2px solid rgb(255, 255, 255);
+
+}
+
+.logout {
+    color: white;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 8px 5px 8px;
+}
+
+.logout:hover {
+    color: rgb(42, 95, 165);
+    background-color: rgb(255, 255, 255);
+}
+
+.welcomeUser {
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media only screen and (max-width: 1000px) {
+    .navHeader {
+
+        justify-content: start;
+    }
+
+
+}
+
+@media only screen and (max-width: 810px) {
+    .linkList li {
+        font-size: 15px;
+    }
+
+    .logout {
+        font-size: 15px;
+    }
+
+    .welcomeUser {
+        font-size: 15px;
+    }
+
+
+}
+
+@media only screen and (max-width: 610px) {
+    .linkList a {
+        margin: 5px;
+    }
+
+    .logout {
+        font-size: 10px;
+    }
+
+   nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+    nav ul  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .navHeader {
+        height: 220px;
+    }
+
+    .logout{
+        margin-bottom:30px
+    }
+
+}
